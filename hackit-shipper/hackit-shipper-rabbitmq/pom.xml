@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hackit-shipper</artifactId>
+        <groupId>org.qcri.hackit</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>hackit-shipper-rabbitmq</artifactId>
+
+    <properties>
+        <rabbitmq.version>5.7.3</rabbitmq.version>
+    </properties>
+
+    <dependencies>
+        <!-- Start Dependency of Hackit  -->
+        <dependency>
+            <groupId>org.qcri.hackit</groupId>
+            <artifactId>hackit-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- End Dependency of Hackit -->
+        <!-- Start Dependency of rabbitmq  -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>${rabbitmq.version}</version>
+        </dependency>
+        <!-- End Dependency of rabbitmq -->
+    </dependencies>
+</project>

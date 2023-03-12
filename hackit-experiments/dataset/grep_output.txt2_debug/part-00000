@@ -1,0 +1,90 @@
+#access the dumy data base
+sqlcmd -S 127.0.0.1 -U SA
+psw: Sqlsqlsql1
+
+# list all data bases
+SELECT name FROM master.sys.databases
+
+# select a data base
+use database_name
+
+# list tables in a database
+SELECT table_name FROM INFORMATION_SCHEMA.TABLES
+
+# insert new columns in a table
+ALTER TABLE table_name
+  ADD column_name column_definition;
+
+# create a table
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+)
+
+# copy a table from one database into another database
+select * into dummy_TBase.dbo.Untersuchung from master.dbo.Untersuchung
+
+# Dump a CSV file into a table
+# go to python script
+#access the dumy data base
+sqlcmd -S 127.0.0.1 -U SA
+psw: Sqlsqlsql1
+
+# list all data bases
+SELECT name FROM master.sys.databases
+
+# select a data base
+use database_name
+
+# list tables in a database
+SELECT table_name FROM INFORMATION_SCHEMA.TABLES
+
+# insert new columns in a table
+ALTER TABLE table_name
+  ADD column_name column_definition;
+
+# create a table
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+)
+
+# copy a table from one database into another database
+select * into dummy_TBase.dbo.Untersuchung from master.dbo.Untersuchung
+
+# Dump a CSV file into a table
+# go to python script
+#access the dumy data base
+sqlcmd -S 127.0.0.1 -U SA
+psw: Sqlsqlsql1
+
+# list all data bases
+SELECT name FROM master.sys.databases
+
+# select a data base
+use database_name
+
+# list tables in a database
+SELECT table_name FROM INFORMATION_SCHEMA.TABLES
+
+# insert new columns in a table
+ALTER TABLE table_name
+  ADD column_name column_definition;
+
+# create a table
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+)
+
+# copy a table from one database into another database
+select * into dummy_TBase.dbo.Untersuchung from master.dbo.Untersuchung

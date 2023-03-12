@@ -1,0 +1,12 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/qcri/hackit/benchmark/id/generators/TwitterSnowflakeBenchmark.generate_n_ID
+inline,org/qcri/hackit/benchmark/id/generators/TwitterSnowflakeBenchmark.setup
+inline,org/qcri/hackit/benchmark/loops/BenchmarkLoop.loopFor
+inline,org/qcri/hackit/benchmark/loops/BenchmarkLoop.loopForEach
+inline,org/qcri/hackit/benchmark/loops/BenchmarkLoop.loopIterator
+inline,org/qcri/hackit/benchmark/loops/BenchmarkLoop.loopWhile
+inline,org/qcri/hackit/benchmark/loops/BenchmarkLoop.setup
